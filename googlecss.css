@@ -1,0 +1,299 @@
+/*For Google Home Page*/
+/*For top corner*/
+.topcorn {
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 15px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+
+/*For image search divs*/
+.image {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/*For image search href*/
+.image1 {
+	font-size: 17px;
+	font-family: sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+/*For advance search divs*/
+#advance {
+	display: inline-block;
+}
+
+/*For advance search href*/
+#advance1 {
+	font-size: 17px;
+	font-family: sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+/*For image search href when hovered*/
+.image1:hover {
+	border-bottom: 1px solid black;
+	padding-bottom: -1px;
+}
+
+/*For advance search href when hovered*/
+#advance1:hover {
+	border-bottom: 1px solid black;
+	padding-bottom: -1px;
+}
+
+/*Google logo */
+#center1 {
+	display: block;
+	width: 250px;
+	margin: auto;
+	margin-bottom: 1px;
+}
+
+/*Search Bar*/ 
+#bar {
+	border-style: solid;
+	display: block;
+	margin: auto;
+	width: 55%;
+	height: 55px;
+	border-radius: 30px;
+	border-color: #dddddd;
+	border-width: 1px;
+	padding: 0px 55px;
+	font-size: 18px;
+}
+
+/*Search Bar*/
+#bar:hover {
+	box-shadow: 0px 1px 8px 1px #cccccc;
+	border-color: white;
+}
+
+
+#slogo {
+	opacity: 0.4;
+	height: 17px;
+	position: relative;
+	top: 39px;
+	left: 24%;
+}
+
+.sbutton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.go {
+	font-size: 17px;
+	margin-top: 35px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width:15%;
+	height: 45px;
+	background-color: #f5f5f5;
+	border-style: none;
+	border-radius: 5px;
+	opacity: 0.7;
+}
+
+.go1{
+	margin-right: 15px;
+}
+
+.go:hover {
+	box-shadow: 0px 0px 1px 1px #cccccc; 
+}
+
+/*For Advanced Google Home Page*/
+#Mainbar {
+	margin-top: -15px;
+	margin-left: -7px;
+	padding:0px 5px 0px 5px;
+	width: 100%;
+	height: 65px;
+	background: #efefef;
+}
+
+#Redirect {
+	position: absolute;
+	top: 15px;
+	left: 18px;
+	width: 90px;
+}
+
+#Adv {
+	opacity: 0.8;
+	padding-left: 40px;
+	padding-top: 4px;
+	padding-bottom: 25px;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	border-bottom: 1px solid #efefef;
+	color: #db0f0f;
+}
+
+.fl {
+	display: inline-block;
+}
+
+#Find {
+	opacity: 0.9;
+	padding-top: 22px;
+	padding-left: 40px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+.todo {
+	font-family: sans-serif;
+	color: #555555;
+	margin-right: 17%;
+	float: right;
+	position: relative;
+	top: 22px;
+}
+
+.mgi {
+	margin-bottom: -7px;
+}
+
+.ainput {
+	padding-left: 5px;
+	padding-right: 5px;
+	float: right;
+	margin-bottom: 5px;
+	margin-right: 35%;
+	width: 45%;
+	height:23px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.up {
+	margin-right: 10px;
+	font-size:13px;
+	font-family: sans-serif;
+	position: relative;
+	bottom: 10px;
+}
+
+.b_right {
+	background: #2776ec;
+	width:130px;
+	height:30px;
+	float: right;
+	margin-right: 35%;
+	border:1px solid #1157c0;
+	border-radius: 3px;
+	color: white;
+}
+
+.b_right:hover {
+	filter: brightness(0.9);
+}
+
+.tips {
+	color: #777777;
+	margin-bottom: 17px;
+	position: relative;
+	bottom: 180px;
+	margin-left: 68%;
+	display: block;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+/*For Images Google Home Page */
+.googles {
+	margin-top: 25px;
+	margin-right: 30px;
+	float: right;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.googles1 {
+	float: right;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+
+.googles:hover {
+	border-bottom: 1px solid black;
+	padding-bottom: -1px;
+}
+
+.googles1:hover {
+	border-bottom: 1px solid black;
+	padding-bottom: -1px;
+}
+
+#center2 {
+	margin: auto;
+	display: block;
+	width: 280px;
+	margin-top: 150px;
+}
+
+#bar1 {
+	border-style: solid;
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: 48px;
+	border-radius: 30px;
+	border-color: #dddddd;
+	border-width: 1px;
+	padding: 0px 55px;
+	font-size: 18px;
+	z-index: 1;
+}
+
+/*Search Bar*/
+#bar1:hover {
+	box-shadow: 0px 1px 8px 1px #cccccc;
+	border-color: white;
+}
+
+#slogo1 {
+	opacity: 0.4;
+	height: 17px;
+	position: relative;
+	top:35px;
+	left: 26%;
+	z-index: 2;
+}
+
+.sized {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	opacity: 0.7;
+	float: right;
+	margin-right: 26%;
+	margin-top: -34.5px;
+}
+
+.sized1 {
+	width: 30px;
+	filter: brightness(1.1);
+}
